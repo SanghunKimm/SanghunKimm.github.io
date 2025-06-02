@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Math
+slug: math
 menu: true
 order: 1
 description: >
