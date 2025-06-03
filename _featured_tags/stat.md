@@ -5,5 +5,5 @@ slug: stat
 menu: true
 order: 2
 description: >
-  Talking about stat
+  통계학 이야기
 ---
