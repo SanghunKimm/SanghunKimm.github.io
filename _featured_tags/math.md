@@ -2,6 +2,7 @@
 layout: list
 title: Math
 slug: math
+tag: math
 menu: true
 order: 1
 description: >
