@@ -2,6 +2,7 @@
 layout: list
 title: Stat
 slug: stat
+tag: stat
 menu: true
 order: 2
 description: >
