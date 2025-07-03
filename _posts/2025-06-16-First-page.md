@@ -68,13 +68,13 @@ Birthplace
 어제 힘들게 풀었던 프리드버그 2.2.17 문제의 풀이로 수식 입력을 연습해보겠습니다.
 
 **Problem 2.2.17**  
-$$
+
 Let $V$ and $W$ be vector spaces such that $\dim(V) = \dim(W)$, 
 and let $T : V \to W$ be linear. Show that there exist ordered bases $\beta$ and $\gamma$ for V and W, respectively, such that $[T]_{\beta}^{\gamma}$ is a diagonal matrix.
-$$
+
 
 **Solution**
-$$
+
 Let $\alpha_1 = \{w_1, \ldots, w_k\}$ and $\alpha_2 = \{v_{k+1}, \ldots, v_n\}$ be bases for $R(T)$ and $N(T)$, respectively.
 
 Then, the set $\{v_1, \ldots, v_k \mid v_i \in V, \text{ such that } T v_i = w_i\}$ is linearly independent since $\alpha_1$ is linearly independent.
@@ -108,5 +108,4 @@ a_{ij} =
 $$
 
 Therefore, $[T]_\beta^\gamma$ is diagonal. $\blacksquare$
-$$
 
