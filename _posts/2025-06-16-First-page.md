@@ -69,22 +69,26 @@ Birthplace
 
 **Problem 2.2.17**  
 
-Let \( V \) and \( W \) be vector spaces such that \( \dim(V) = \dim(W) \),  
-and let \( T : V \to W \) be linear. Show that there exist ordered bases \( \beta \) and \( \gamma \) for \( V \) and \( W \), respectively, such that \( [T]_{\beta}^{\gamma} \) is a diagonal matrix.
+Let $$V$$ and $$W$$ be vector spaces such that $$\dim(V) = \dim(W)$$,  
+and let $$T : V \to W$$ be linear. Show that there exist ordered bases $$\beta$$ and $$\gamma$$ for $$V$$ and $$W$$, respectively, such that $$[T]_{\beta}^{\gamma}$$ is a diagonal matrix.
 
 
 
 **Solution**
 
-Let \( \alpha_1 = \{w_1, \ldots, w_k\} \) and \( \alpha_2 = \{v_{k+1}, \ldots, v_n\} \) be bases for \( R(T) \) and \( N(T) \), respectively.
+Let $$\alpha_1 = \{w_1, \ldots, w_k\}$$ and $$\alpha_2 = \{v_{k+1}, \ldots, v_n\}$$ be bases for $$R(T)$$ and $$N(T)$$, respectively.
 
-Then, the set \( \{v_1, \ldots, v_k \mid v_i \in V, \text{ such that } T v_i = w_i\} \) is linearly independent since \( \alpha_1 \) is linearly independent.
+Then, the set $$\{v_1, \ldots, v_k \mid v_i \in V,\ \text{such that}\ T v_i = w_i\}$$ is linearly independent since $$\alpha_1$$ is linearly independent.
 
-Thus, \( \beta = \{v_1, \ldots, v_k, v_{k+1}, \ldots, v_n\} \) becomes a basis for \( V \).
+Thus, 
+$$
+\beta = \{v_1, \ldots, v_k,\ v_{k+1}, \ldots, v_n\}
+$$ 
+becomes a basis for $$V$$.
 
 We can show its linear independence:
 
-\[
+$$
 \begin{array}{l}
 c_1 v_1 + \cdots + c_n v_n = 0 \\
 \Rightarrow \sum_{i=1}^n c_i T(v_i) = 0 \\
@@ -93,21 +97,39 @@ c_1 v_1 + \cdots + c_n v_n = 0 \\
 \Rightarrow c_{k+1} v_{k+1} + \cdots + c_n v_n = 0 \\
 \Rightarrow c_{k+1} = \cdots = c_n = 0
 \end{array}
-\]
+$$
 
-Now, by the Replacement Theorem, there exists a set \( U = \{w_{k+1}, \ldots, w_n\} \) such that \( U \cup \alpha_1 \) spans \( W \).
+Now, by the Replacement Theorem, there exists a set 
+$$
+U = \{w_{k+1}, \ldots, w_n\}
+$$ 
+such that 
+$$
+U \cup \alpha_1
+$$ 
+spans $$W$$.
 
-We can set \( \gamma = U \cup \alpha_1 \). Then:
+Let 
+$$
+\gamma = U \cup \alpha_1.
+$$
 
-\[
+Then:
+
+$$
 [T]_\beta^\gamma = [a_{ij}], \quad
 a_{ij} =
 \begin{cases}
 \delta_{ij} & \text{if } 1 \leq j \leq k \\
 0 & \text{if } k+1 \leq j \leq n
 \end{cases}
-\]
+$$
 
-Therefore, \( [T]_\beta^\gamma \) is diagonal. \( \blacksquare \)
+Therefore, 
+$$
+[T]_\beta^\gamma
+$$ 
+is diagonal. 
+$$\blacksquare$$
 
 
