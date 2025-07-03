@@ -5,6 +5,7 @@ description: >
   제 첫번째 글입니다 한글이 잘 써지는지 봐볼까요? 이 글은 연습 글입니다.
 tags: [math]
 slug : math
+math: true
 ---
 
 그냥 글은 이렇게 쓰면 되네요.
