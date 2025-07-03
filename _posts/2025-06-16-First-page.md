@@ -70,7 +70,8 @@ Birthplace
 **Problem 2.2.17**  
 
 Let $$V$$ and $$W$$ be vector spaces such that $$\dim(V) = \dim(W)$$,  
-and let $$T : V \to W$$ be linear. Show that there exist ordered bases $$\beta$$ and $$\gamma$$ for $$V$$ and $$W$$, respectively, such that $$[T]_{\beta}^{\gamma}$$ is a diagonal matrix.
+and let $$T : V \to W$$ be linear. 
+Show that there exist ordered bases $$\beta$$ and $$\gamma$$ for $$V$$ and $$W$$, respectively, such that $$[T]_{\beta}^{\gamma}$$ is a diagonal matrix.
 
 
 
