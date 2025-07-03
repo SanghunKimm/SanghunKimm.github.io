@@ -3,3 +3,9 @@
 {% include head/scripts.html %}
 {% include head/styles.html %}
 {% include my-head.html %}
+
+{% if page.math or site.math %}
+  <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+{% endif %}
