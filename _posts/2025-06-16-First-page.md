@@ -100,7 +100,7 @@ c_1 v_1 + \cdots + c_n v_n = 0 \\
 \end{array}
 $$
 
-Now, by the Replacement Theorem, there exists a set 
+Now, by the Replacement Theorem, there exists a linearly independent set 
 $$
 U = \{w_{k+1}, \ldots, w_n\}
 $$ 
